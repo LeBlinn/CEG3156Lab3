@@ -19,6 +19,54 @@ Altera or its authorized distributors.  Please refer to the
 applicable agreement for further details.
 */
 (header "graphic" (version "1.4"))
+(pin
+	(input)
+	(rect -88 504 80 520)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "clk" (rect 5 0 20 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -88 536 80 552)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "rst" (rect 5 0 18 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect -88 472 80 488)
+	(text "INPUT" (rect 125 0 153 10)(font "Arial" (font_size 6)))
+	(text "ram_clk" (rect 5 0 44 12)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 148 17)(font "Arial" (font_size 6)))
+)
 (symbol
 	(rect 8 288 216 400)
 	(text "PC" (rect 5 0 20 12)(font "Arial" ))
@@ -2911,6 +2959,222 @@ applicable agreement for further details.
 	(pt 1248 -48)
 	(pt 1352 -48)
 )
+(connector
+	(pt 80 480)
+	(pt 232 480)
+)
+(connector
+	(pt 232 336)
+	(pt 256 336)
+)
+(connector
+	(pt 232 336)
+	(pt 232 480)
+)
+(connector
+	(pt 232 480)
+	(pt 232 496)
+)
+(connector
+	(pt 888 496)
+	(pt 232 496)
+)
+(connector
+	(pt 888 624)
+	(pt 888 496)
+)
+(connector
+	(pt 2008 624)
+	(pt 888 624)
+)
+(connector
+	(pt 2008 624)
+	(pt 2008 872)
+)
+(connector
+	(pt 3136 872)
+	(pt 2008 872)
+)
+(connector
+	(pt 3136 272)
+	(pt 3136 872)
+)
+(connector
+	(pt 3136 272)
+	(pt 3144 272)
+)
+(connector
+	(pt 464 368)
+	(pt 512 368)
+)
+(connector
+	(pt 464 368)
+	(pt 464 512)
+)
+(connector
+	(pt 80 512)
+	(pt 464 512)
+)
+(connector
+	(pt 464 512)
+	(pt 1048 512)
+)
+(connector
+	(pt 1048 304)
+	(pt 1144 304)
+)
+(connector
+	(pt 1048 392)
+	(pt 1488 392)
+)
+(connector
+	(pt 1048 304)
+	(pt 1048 392)
+)
+(connector
+	(pt 1048 392)
+	(pt 1048 512)
+)
+(connector
+	(pt 1488 296)
+	(pt 1768 296)
+)
+(connector
+	(pt 1488 296)
+	(pt 1488 376)
+)
+(connector
+	(pt 1488 376)
+	(pt 1488 392)
+)
+(connector
+	(pt 2728 272)
+	(pt 2728 376)
+)
+(connector
+	(pt 2728 272)
+	(pt 2784 272)
+)
+(connector
+	(pt 3384 376)
+	(pt 3384 272)
+)
+(connector
+	(pt 1488 376)
+	(pt 2728 376)
+)
+(connector
+	(pt 2728 376)
+	(pt 3384 376)
+)
+(connector
+	(pt 3384 272)
+	(pt 3400 272)
+)
+(connector
+	(pt 472 384)
+	(pt 512 384)
+)
+(connector
+	(pt 168 544)
+	(pt 168 408)
+)
+(connector
+	(pt 80 544)
+	(pt 168 544)
+)
+(connector
+	(pt 168 544)
+	(pt 472 544)
+)
+(connector
+	(pt 168 408)
+	(pt -8 408)
+)
+(connector
+	(pt -8 352)
+	(pt -8 408)
+)
+(connector
+	(pt -8 352)
+	(pt 8 352)
+)
+(connector
+	(pt 880 504)
+	(pt 472 504)
+)
+(connector
+	(pt 472 384)
+	(pt 472 504)
+)
+(connector
+	(pt 472 504)
+	(pt 472 544)
+)
+(connector
+	(pt 880 520)
+	(pt 1056 520)
+)
+(connector
+	(pt 880 504)
+	(pt 880 520)
+)
+(connector
+	(pt 1056 288)
+	(pt 1144 288)
+)
+(connector
+	(pt 1496 400)
+	(pt 1056 400)
+)
+(connector
+	(pt 1056 288)
+	(pt 1056 400)
+)
+(connector
+	(pt 1056 400)
+	(pt 1056 520)
+)
+(connector
+	(pt 1496 312)
+	(pt 1768 312)
+)
+(connector
+	(pt 1496 392)
+	(pt 2744 392)
+)
+(connector
+	(pt 2784 288)
+	(pt 2744 288)
+)
+(connector
+	(pt 1496 312)
+	(pt 1496 392)
+)
+(connector
+	(pt 1496 392)
+	(pt 1496 400)
+)
+(connector
+	(pt 2744 400)
+	(pt 3392 400)
+)
+(connector
+	(pt 2744 288)
+	(pt 2744 392)
+)
+(connector
+	(pt 2744 392)
+	(pt 2744 400)
+)
+(connector
+	(pt 3392 400)
+	(pt 3392 288)
+)
+(connector
+	(pt 3392 288)
+	(pt 3400 288)
+)
 (junction (pt 232 320))
 (junction (pt 920 320))
 (junction (pt 920 208))
@@ -2937,3 +3201,13 @@ applicable agreement for further details.
 (junction (pt 3104 320))
 (junction (pt 2072 264))
 (junction (pt 2080 104))
+(junction (pt 232 480))
+(junction (pt 464 512))
+(junction (pt 1048 392))
+(junction (pt 1488 376))
+(junction (pt 2728 376))
+(junction (pt 168 544))
+(junction (pt 472 504))
+(junction (pt 1056 400))
+(junction (pt 1496 392))
+(junction (pt 2744 392))
