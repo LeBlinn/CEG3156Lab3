@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'RamClock'
+Slack : -12.437
+TNS   : -66.722
+
+Type  : Slow 1200mV 85C Model Hold 'RamClock'
+Slack : 0.614
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'GlobalClock'
+Slack : -19.521
+TNS   : -146.664
+
+Type  : Slow 1200mV 85C Model Removal 'GlobalClock'
+Slack : -4.625
+TNS   : -12.501
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'GlobalClock'
+Slack : -3.963
+TNS   : -25.886
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'RamClock'
+Slack : -3.000
+TNS   : -40.702
+
+Type  : Slow 1200mV 0C Model Setup 'RamClock'
+Slack : -11.421
+TNS   : -60.227
+
+Type  : Slow 1200mV 0C Model Hold 'RamClock'
+Slack : 0.627
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'GlobalClock'
+Slack : -17.987
+TNS   : -134.832
+
+Type  : Slow 1200mV 0C Model Removal 'GlobalClock'
+Slack : -4.291
+TNS   : -11.521
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'GlobalClock'
+Slack : -3.556
+TNS   : -23.615
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'RamClock'
+Slack : -3.000
+TNS   : -40.086
+
+Type  : Fast 1200mV 0C Model Setup 'RamClock'
+Slack : -5.536
+TNS   : -24.251
+
+Type  : Fast 1200mV 0C Model Hold 'RamClock'
+Slack : 0.157
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'GlobalClock'
+Slack : -9.015
+TNS   : -67.008
+
+Type  : Fast 1200mV 0C Model Removal 'GlobalClock'
+Slack : -2.205
+TNS   : -5.939
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'RamClock'
+Slack : -3.000
+TNS   : -18.663
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'GlobalClock'
+Slack : -3.000
+TNS   : -14.055
+
+------------------------------------------------------------

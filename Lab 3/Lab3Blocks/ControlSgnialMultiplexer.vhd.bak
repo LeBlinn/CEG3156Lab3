@@ -1,0 +1,26 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+Entity ControlSgnialMultiplexer is 
+	Port (HazardSignal : IN std_logic;
+			RegDst_IN : IN std_logic;
+          ALUScr_IN : IN std_logic;
+          MemToReg_IN : IN std_logic;
+          RegWrite_IN : IN std_logic;
+          MemRead_IN : IN std_logic;
+          MemWrite_IN : IN std_logic;
+          BranchEqual_IN : IN std_logic;
+          ALUOp_IN : IN std_logic_vector(1 downto 0);
+			 Jump_IN : IN std_logic;
+			 RegDst_OUT : OUT std_logic;
+          ALUScr_OUT : OUT std_logic;
+          MemToReg_OUT : OUT std_logic;
+          RegWrite_OUT : OUT std_logic;
+          MemRead_OUT : OUT std_logic;
+          MemWrite_OUT : OUT std_logic;
+          BranchEqual_OUT : OUT std_logic;
+          ALUOp1_OUT : OUT std_logic;
+			 ALUOp0_OUT : OUT std_logic;
+			 Jump_OUT : OUT std_logic);
+End ControlSgnialMultiplexer;
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Lab2_qsim">
+		<CBX_INST_ENTRY INSTANCE_NAME="|SingleCycleProcessor|sram:inst11|LPM_RAM_DP:ram0|altdpram:sram" CBX_FILE_NAME="dpram_tn61.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SingleCycleProcessor|sram:inst11|LPM_RAM_DP:ram0|altdpram:sram|altsyncram:ram_block" CBX_FILE_NAME="altsyncram_ujq1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|SingleCycleProcessor|srom:inst2|LPM_ROM:rom0|altrom:srom|altsyncram:rom_block" CBX_FILE_NAME="altsyncram_2vv.tdf"/>
+	</PROJECT>
+</LOG_ROOT>
